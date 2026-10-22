@@ -1,0 +1,75 @@
+---
+title: "Practical_1_Introduction_to_R/prac1_exercises.qmd"
+author: "Mabel Bentley"
+---
+```{r}
+#Functions
+sqrt(9)
+round(3.14159)
+```
+```{r}
+#Arguments
+round(3.14159, digits = 2)
+
+#Ordering Arguments
+print(seq(1, 10, 2))
+print(seq(by = 2, from = 1, to = 10))
+
+print(rep(5,7))
+print(rep(x=5, times=7))
+```
+```{r}
+#Variables
+my_variable <- 12
+my_variable <- 10
+print(my_variable)
+
+#Numeric Variables
+x <- 4e-3
+print(x)
+
+#Character/String Variables
+x <- "I am a variable"
+print(x)
+
+#Logical/Boolean Variables
+x <- TRUE
+print(x)
+x <- FALSE
+print(x)
+
+#Classifying Variables
+x <- "hi there"
+print(class(x))
+x <- 1513871
+print(class(x))
+x <- FALSE
+print(class(x))
+
+#Exercise
+number <- 7
+print(number)
+word <- "hello"
+print(word)
+true_or_false <- TRUE
+print(true_or_false)
+
+print(class(number))
+print(class(word))
+print(class(true_or_false))
+
+#Exercise - Using variables of different types
+Cell_ID_1 <- "CX1"
+Cell_ID_2 <- "CX2"
+
+treated_1 <- TRUE
+treated_2 <- FALSE
+
+num_cells_before_1 <- 5415
+num_cells_before_2 <- 8123
+
+num_cells_after_1 <- 1432
+num_cells_after_2 <- 7543
+
+```
+
